@@ -63,17 +63,36 @@ Y= A⊕B
 
 
 **PROGRAM**
+module logic_gates(a, b, c1, c2, c3, c4, c5, c6, c7);
+    input a, b;
+    output c1, c2, c3, c4, c5, c6, c7;
+
+    assign c1 = ~a;
+    assign c2 = a & b;
+    assign c3 = a | b;
+    assign c4 = ~(a & b);
+    assign c5 = ~(a | b);
+    assign c6 = a ^ b;
+    assign c7 = ~(a ^ b);
+endmodule
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed by: Prasanth T
+ RegisterNumber: 24900510
  
 **Logic symbol & Truthtable**
 
+
+![truth table](https://github.com/user-attachments/assets/1c30cf47-e951-470d-a831-10a1016aff84)
+
 **RTL realization Output:** 
+![exp1 logic diagram](https://github.com/user-attachments/assets/5cd342ca-b828-4603-8915-70c7393742c6)
 
 **RTL**
+![exp 1](https://github.com/user-attachments/assets/859fcaea-2be6-4446-9cc9-08f50bcde42c)
+
 
 **Result:**
-
+Thus the different digital IC's are studies and truthtables for different logic gates are verified
 
